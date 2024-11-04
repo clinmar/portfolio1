@@ -1,0 +1,177 @@
+   /* Base styles for the header */
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fc;
+}
+
+.navbar {
+    background-color: #1f2937;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #e5e7eb;
+    font-weight: 500;
+    margin-right: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #60a5fa;
+}
+
+/* Button styling */
+.btn-contact {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-contact:hover {
+    background-color: #1d4ed8;
+}
+
+/* Responsive menu button */
+.navbar-toggler-icon {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hero-section {
+    background: linear-gradient(135deg, #1f2937, #374151);
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    color: #d1d5db;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+
+
+
+
+
+
+.projects-section h2 {
+    font-size: 2rem;
+    color: #1f2937;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20x rgba(0, 0, 0, 0.15);
+}
+
+.btn-outline-primary {
+    color: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+
+
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #1f2937;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.skills .badge {
+    font-size: 0.9rem;
+    padding: 0.5em 1em;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+
+.contact-section h2 {
+    font-size: 2rem;
+    color: #1f2937;
+}
+
+.contact-info {
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.contact-info:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.social-media h5 {
+    margin-bottom: 1rem;
+}
+
+.social-media a {
+    transition: transform 0.3s;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling for mobile view */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: #1f2937;
+        padding: 1rem;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 0.5rem 0;
+    }
+}
