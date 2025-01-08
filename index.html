@@ -4,106 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <!-- Bootstrap CSS -->
+  
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
+ 
      <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
      <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-DyZv9JKvTfDtkQIGn+F5L1v6TwlG0KCRtUS3+GY5O5wql5SlBCTgSMf5mlnU9J8w" crossorigin="anonymous">
-<!-- Include Font Awesome via CDN -->
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMb1XGOsjX6UHGc4wQKNqXgN2Cj9BhZ70E3Jd" crossorigin="anonymous">
 
 </head>
 <body>
 
-<!-- Header Section -->
-<header class="header">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <!-- Logo -->
-            <a class="navbar-brand" href="#">Clints's Portfolio</a>
 
-            <!-- Mobile Toggle Button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <!-- Navbar Links -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                <a class="btn btn-contact ms-lg-3" href="https://drive.google.com/file/d/1oYi4wEfTxZS_EngrfQM0iwhqPnf2A-7o/view?usp=sharing
-
-                    ">CV</a>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">Clints's Portfolio</a>
+    
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <a class="btn btn-contact ms-lg-3" href="https://drive.google.com/file/d/1oYi4wEfTxZS_EngrfQM0iwhqPnf2A-7o/view?usp=sharing
+    
+                        ">CV</a>
+                </div>
             </div>
+        </nav>
+    </header>
+
+
+
+    <section class="hero-section d-flex align-items-center" style="min-height: 90vh; background: #1f2937; color: #ffffff;">
+        <div class="container text-center">
+            <!-- Animated Heading and Subheading -->
+            <h1 class="display-4 fw-bold" data-aos="fade-up" data-aos-duration="1000">Welcome to My Portfolio</h1>
+            <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                I'm Clint Angelo Ziga, a professional web developer & designer. Let's build something amazing together!
+            </p>
+            
+            <!-- Call-to-Action Button -->
+            <a href="#projects" class="btn btn-primary btn-lg" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" style="background-color: #2563eb; border: none;">
+                View My Work
+            </a>
         </div>
-    </nav>
-</header>
-<section class="hero-section d-flex align-items-center" style="min-height: 90vh; background: #1f2937; color: #ffffff;">
-    <div class="container text-center">
-        <!-- Animated Heading and Subheading -->
-        <h1 class="display-4 fw-bold" data-aos="fade-up" data-aos-duration="1000">Welcome to My Portfolio</h1>
-        <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            I'm Clint Angelo Ziga, a professional web developer & designer. Let's build something amazing together!
-        </p>
-        
-        <!-- Call-to-Action Button -->
-        <a href="#projects" class="btn btn-primary btn-lg" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" style="background-color: #2563eb; border: none;">
-            View My Work
-        </a>
-    </div>
-</section>
+    </section>
+
+
 
 <!-- About Me Section -->
 <section id="about" class="about-section py-5" style="background-color: #ffffff;">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Profile Image -->
-            <div class="col-md-4 text-center mb-4 mb-md-0" data-aos="fade-right" data-aos-duration="1000">
-                <img src="pic.JPG" alt="Your Name" class="img-fluid rounded-circle " style="width: 200px; height: 200px; object-fit: cover;">
-            </div>
-
-            <!-- About Me Content -->
-            <div class="col-md-8" data-aos="fade-left" data-aos-duration="1000">
-                <h2 class="fw-bold">About Me</h2>
-                <p class="text-muted">
-                    Hi,  Clint Angelo Ziga, a passionate web developer and designer with a background in Information Technology Major in Programming. With a love for creating modern, responsive, and user-friendly website.
-                </p>
-
-                <!-- Skills Icons -->
-                <div class="skills mt-4">
-                    <h5 class="fw-bold">Skills</h5>
-                    <div class="d-flex flex-wrap">
-                        <span class="badge bg-primary me-2 mb-2">HTML</span>
-                        <span class="badge bg-success me-2 mb-2">CSS</span>
-                        <span class="badge bg-warning me-2 mb-2">JavaScript</span>
-                        <span class="badge bg-info me-2 mb-2">PHP</span>
-                        <span class="badge bg-danger me-2 mb-2">Bootstrap</span>
-                        <span class="badge bg-secondary me-2 mb-2">Figma</span>
+    <div class="container justify-content-center align-items-center">
+       <div class="row">
+        <div class="col-md-4 text-center mb-4 mb-md-0"  data-aos="fade-right" data-aos-duration="1000"  >
+            <img src="profile.svg" alt="Your Name" class="img-fluid rounded-circle " >
+           </div>
+           <div class="col-md-8 " data-aos="fade-left" data-aos-duration="1000">
+            <h2 class="fw-bold">About Me</h2>
+                    <p class="text-muted">
+                        Hi,  Clint Angelo Ziga, a passionate web developer and designer with a background in Information Technology Major in Programming. With a love for creating modern, responsive, and user-friendly website.
+                    </p>
+    
+                    <!-- Skills Icons -->
+                    <div class="skills mt-4">
+                        <h5 class="fw-bold">Skills</h5>
+                        <div class="d-flex flex-wrap">
+                            <span class="badge bg-primary me-2 mb-2">HTML</span>
+                            <span class="badge bg-success me-2 mb-2">CSS</span>
+                            <span class="badge bg-warning me-2 mb-2">JavaScript</span>
+                            <span class="badge bg-info me-2 mb-2">PHP</span>
+                            <span class="badge bg-danger me-2 mb-2">Bootstrap</span>
+                            <span class="badge bg-secondary me-2 mb-2">Figma</span>
                     </div>
-                </div>
-
-                <!-- Contact Button -->
-                <a href="#contact" class="btn btn-primary mt-4" style="background-color: #2563eb; border: none;">
-                    Get in Touch
-                </a>
-            </div>
-        </div>
+           </div>
+       </div>
     </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -181,8 +196,6 @@
         </div>
     </div>
 </section>
-
-
 
 <section id="contact" class="contact-section py-5" style="background-color: #f7f8fc;">
     <div class="container text-center">
@@ -267,15 +280,14 @@
 </footer>
 
 
-<!-- Font Awesome for Social Media Icons -->
+
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-<!-- Include AOS JS before the closing body tag -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script>
     AOS.init();
 </script>
-<!-- Bootstrap JS and Popper.js -->
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
